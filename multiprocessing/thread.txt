@@ -1,0 +1,11 @@
+Thread is an entity within a process that can be scheduled 
+
++ Lightweight 
++ All threads within a process share the same memory 
++ Starting a thread is faster than starting a process 
++ Great for I/O Bound tasks 
+
+- Threading is limited by global interpreter lock 
+- No effect on cpu bound tasks 
+- Non interruptable/killable
+- Careful with race conditions
