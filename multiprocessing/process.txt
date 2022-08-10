@@ -1,0 +1,16 @@
+A process is an instance of a program, ex. running a browser or running a python 
+interpreter 
+
+A process can have multiple threads
+
++ Takes advantage of multiple cpus
++ Seperate memory space, memory is not shared between processes
++ Processes are interruptable/killable 
++ One GIL for each process
++ Great for cpu bound processing 
++ One process can be started independent of the other 
+
+- Starting a process is slower than starting a thread 
+- Heavyweight 
+- More memory 
+- IPC (Inter process communication is more complicated)
